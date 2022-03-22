@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #000;
+    color: mediumseagreen;
+    font-family: "Roboto Mono";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img-chooser {
+    margin: 0 0 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.img-chooser h1 {
+    margin: 0 0 10px 0;
+}
+
+a {
+    display: block;
+    position: relative;
+}
+
+a:before {
+    content: "Click to download GIF";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    color: mediumseagreen;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+}
